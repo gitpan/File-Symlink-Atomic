@@ -15,7 +15,7 @@
    "name" : "File-Symlink-Atomic",
    "no_index" : {
       "directory" : [
-         "corpus"
+         "inc"
       ]
    },
    "prereqs" : {
@@ -53,12 +53,13 @@
       "bugtracker" : {
          "web" : "https://github.com/doherty/File-Symlink-Atomic/issues"
       },
+      "homepage" : "http://metacpan.org/release/File-Symlink-Atomic/",
       "repository" : {
          "type" : "git",
          "url" : "git://github.com/doherty/File-Symlink-Atomic.git",
          "web" : "https://github.com/doherty/File-Symlink-Atomic"
       }
    },
-   "version" : "0.001"
+   "version" : "0.002"
 }
 

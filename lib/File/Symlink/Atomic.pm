@@ -2,7 +2,7 @@ package File::Symlink::Atomic;
 use strict;
 use warnings;
 # ABSTRACT: an atomic drop-in replacement for CORE::symlink
-our $VERSION = '0.001'; # VERSION
+our $VERSION = '0.002'; # VERSION
 
 use File::Temp;
 use File::Spec;
@@ -42,7 +42,7 @@ File::Symlink::Atomic - an atomic drop-in replacement for CORE::symlink
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 SYNOPSIS
 
@@ -88,6 +88,8 @@ This module is B<not> guaranteed to be portable. I have no idea what this will
 do on any platform other than Linux. Feel free to run the test suite to find out!
 
 =head1 AVAILABILITY
+
+The project homepage is L<http://metacpan.org/release/File-Symlink-Atomic/>.
 
 The latest version of this module is available from the Comprehensive Perl
 Archive Network (CPAN). Visit L<http://www.perl.com/CPAN/> to find a CPAN

@@ -19,7 +19,7 @@ meta-spec:
 name: File-Symlink-Atomic
 no_index:
   directory:
-    - corpus
+    - inc
 requires:
   Exporter: 0
   File::Spec: 0
@@ -29,5 +29,6 @@ requires:
   warnings: 0
 resources:
   bugtracker: https://github.com/doherty/File-Symlink-Atomic/issues
+  homepage: http://metacpan.org/release/File-Symlink-Atomic/
   repository: git://github.com/doherty/File-Symlink-Atomic.git
-version: 0.001
+version: 0.002
